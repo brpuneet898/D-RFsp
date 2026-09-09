@@ -1,8 +1,12 @@
 ﻿# D-RFsp Simulation Experiment Summary
 
-1. The first experiment conducted in this project was the D-RFsp Monte Carlo proof-of-concept simulation. It was run for four simulation counts per anisotropy value: 1, 500, 1000, and 10000. In each run, the same D-RFsp model and the same spatially blocked validation setup were used, while only the number of simulations per r value was changed.
+## 1
 
-## Standard configuration kept fixed across all simulation runs
+(drfsp_simulation.py)
+
+The first experiment conducted in this project was the D-RFsp Monte Carlo proof-of-concept simulation. It was run for four simulation counts per anisotropy value: 1, 500, 1000, and 10000. In each run, the same D-RFsp model and the same spatially blocked validation setup were used, while only the number of simulations per r value was changed.
+
+### Standard configuration kept fixed across all simulation runs
 
 - Model: D-RFsp Monte Carlo proof-of-concept
 - Number of locations per dataset: 350
@@ -16,11 +20,11 @@
 - Master seed: 20260909
 - Parallel jobs: 1
 
-## Experimental design used
+### Experimental design used
 
 The experiment evaluated the D-RFsp simulation across the anisotropy values r = 1.0, 1.25, 1.5, 1.75, 2.0, 3.0, and 5.0. The simulation design, data generation process, spatial covariance structure, and model configuration remained standard throughout all runs. Only the simulation count per r was varied between the reported experiments: 1, 500, 1000, and 10000.
 
-## First experiment results for simulation per r = 1
+### First experiment results for simulation per r = 1
 
 The first experiment used the D-RFsp Monte Carlo proof-of-concept with one simulation per anisotropy value. The results are shown below for the standard model configuration and fixed experiment settings.
 
@@ -37,7 +41,7 @@ The first experiment used the D-RFsp Monte Carlo proof-of-concept with one simul
 Elapsed time: 1.21 seconds
 Interpretation: positive gain (%) means lower average RMSE for D-RFsp than RFsp.
 
-## First experiment results for simulation per r = 500
+### First experiment results for simulation per r = 500
 
 The first experiment used the D-RFsp Monte Carlo proof-of-concept with 500 simulations per anisotropy value. The results are shown below for the standard model configuration and fixed experiment settings.
 
