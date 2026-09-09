@@ -36,3 +36,19 @@ The first experiment used the D-RFsp Monte Carlo proof-of-concept with one simul
 
 Elapsed time: 1.21 seconds
 Interpretation: positive gain (%) means lower average RMSE for D-RFsp than RFsp.
+
+## First experiment results for simulation per r = 500
+
+The first experiment used the D-RFsp Monte Carlo proof-of-concept with 500 simulations per anisotropy value. The results are shown below for the standard model configuration and fixed experiment settings.
+
+| True r | RF avg RMSE | RFsp avg RMSE | D-RFsp avg RMSE | D-RFsp gain vs RFsp (%) |
+| -------- | ------------- | --------------- | ----------------- | -------------------------- |
+| 1.00 | 1.13578 | 1.10633 | 1.10633 | 0.000 |
+| 1.25 | 1.14219 | 1.11098 | 1.10789 | 0.278 |
+| 1.50 | 1.15849 | 1.14190 | 1.12937 | 1.097 |
+| 1.75 | 1.15800 | 1.14778 | 1.13738 | 0.906 |
+| 2.00 | 1.15648 | 1.14513 | 1.12450 | 1.801 |
+| 3.00 | 1.17941 | 1.19444 | 1.16093 | 2.805 |
+| 5.00 | 1.17916 | 1.20992 | 1.17298 | 3.053 |
+
+Elapsed time: 880.16 seconds
