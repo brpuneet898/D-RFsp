@@ -56,3 +56,19 @@ The first experiment used the D-RFsp Monte Carlo proof-of-concept with 500 simul
 | 5.00 | 1.17916 | 1.20992 | 1.17298 | 3.053 |
 
 Elapsed time: 880.16 seconds
+
+## First experiment results for simulation per r = 1000
+
+The first experiment used the D-RFsp Monte Carlo proof-of-concept with 1000 simulations per anisotropy value. The results are shown below for the standard model configuration and fixed experiment settings.
+
+| True r | RF avg RMSE | RFsp avg RMSE | D-RFsp avg RMSE | D-RFsp gain vs RFsp (%) |
+| -------- | ------------- | --------------- | ----------------- | -------------------------- |
+| 1.00 | 1.15025 | 1.10448 | 1.10448 | 0.000 |
+| 1.25 | 1.15446 | 1.12403 | 1.11905 | 0.443 |
+| 1.50 | 1.15694 | 1.14409 | 1.13310 | 0.961 |
+| 1.75 | 1.16238 | 1.14979 | 1.14006 | 0.846 |
+| 2.00 | 1.16867 | 1.16105 | 1.13812 | 1.976 |
+| 3.00 | 1.17527 | 1.19341 | 1.15984 | 2.812 |
+| 5.00 | 1.17951 | 1.20833 | 1.17533 | 2.730 |
+
+Elapsed time: 2030.55 seconds
