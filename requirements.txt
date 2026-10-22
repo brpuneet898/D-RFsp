@@ -2,3 +2,5 @@ numpy
 scikit-learn
 joblib
 tabulate
+pandas
+scipy
